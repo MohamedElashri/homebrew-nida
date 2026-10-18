@@ -1,26 +1,26 @@
 class Nida < Formula
   desc "Small Go static site generator for blogs and personal sites"
   homepage "https://github.com/MohamedElashri/nida"
-  version "0.7.0"
+  version "0.8.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/MohamedElashri/nida/releases/download/v0.7.0/nida_#{version}_darwin_arm64.tar.gz"
-      sha256 "44324fa7f7ae83dbdf31d29d312b2a74d5e28de1a4fd1ff967f018b7860cbf8f"
+      url "https://github.com/MohamedElashri/nida/releases/download/v0.8.0/nida_#{version}_darwin_arm64.tar.gz"
+      sha256 "926e9d91d6aca13689b3f037241bde6faec90623ac49d873fff6dcd2068dd7bd"
     else
-      url "https://github.com/MohamedElashri/nida/releases/download/v0.7.0/nida_#{version}_darwin_x86_64.tar.gz"
-      sha256 "09187aa21bc110438cdd7f2f774a2574421d269ee35eeb6bda0e9a2c71637709"
+      url "https://github.com/MohamedElashri/nida/releases/download/v0.8.0/nida_#{version}_darwin_x86_64.tar.gz"
+      sha256 "65cef407fc9f7f44db6bca6a590d357f9285de53dc5b9dd3ae565ce4285e576f"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/MohamedElashri/nida/releases/download/v0.7.0/nida_#{version}_linux_arm64.tar.gz"
-      sha256 "41ee8cf329ae8e5953a3250405cc29155d37c56aa48a57606161af1973e56840"
+      url "https://github.com/MohamedElashri/nida/releases/download/v0.8.0/nida_#{version}_linux_arm64.tar.gz"
+      sha256 "ac5e956aa666b93924b1c023c2d20a2a3a08356562ace05731738d81ed01e911"
     else
-      url "https://github.com/MohamedElashri/nida/releases/download/v0.7.0/nida_#{version}_linux_x86_64.tar.gz"
-      sha256 "75a1892d242cf6281f84d5c5921ec5cfeef96632e9ddc9a15e7d7523d7ca2ecd"
+      url "https://github.com/MohamedElashri/nida/releases/download/v0.8.0/nida_#{version}_linux_x86_64.tar.gz"
+      sha256 "5ca0c44888b037383b299e30d5c60b3ac2f73a7f4b6b201c72961a277f8a68bf"
     end
   end
 
